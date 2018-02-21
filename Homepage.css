@@ -104,3 +104,26 @@ header h1 {
 a:hover {
 	color: yellow;
 }
+#date
+{
+	margin-top:70px;
+	color:silver;
+	font-size:40px;
+	//border:2px dashed #2E9AFE;
+	padding:10px;
+	width:300px;
+	margin-left:250px;
+	float: left;
+	
+}
+#time
+{
+	margin-top:20px;
+	font-size:70px;
+	color:silver;
+	//border:2px dashed #2E9AFE;
+	padding:10px;
+	width:400px;
+	margin-left:150px;
+	float: left;
+}

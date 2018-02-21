@@ -19,10 +19,10 @@
 	<h1>Login Here</h1>
 		<form>
 			<p>Username</p>
-			<input type="text" name="" placeholder="Enter Username">
+			<input type="text" name="" placeholder="Enter Username" id="user" >
 			<p>Password</p>
-			<input type="Password" name="" placeholder="Enter Password">
-			<input type="submit" name="" value="Login" onclick="confirmation()"><br>
+			<input type="Password" name="" placeholder="Enter Password" id="pass">
+			<input type="submit" name="" value="Login" onclick="confirmation(document.getElementById('user'),document.getElementById('pass'))"><br>
 			<a href="#">Forget Your Password</a><br><br>
 			<a href="SignUp.html">Create An Account</a><br><br>
 			<p class="X">
